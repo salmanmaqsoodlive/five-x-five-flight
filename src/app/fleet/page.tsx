@@ -14,7 +14,7 @@ const fleet = [
     model: 'Cessna 172 Skyhawk',
     tail: 'N4872S / N3190J',
     role: 'Primary Trainer',
-    img: 'https://images.unsplash.com/photo-1570914827750-3c9a3dd78044?w=900&q=80',
+    img: 'https://images.unsplash.com/photo-1691246074759-a9d97ccca8a9?w=900&q=80',
     engine: 'Lycoming IO-360 (180 HP)',
     avionics: 'Garmin G1000 Glass Panel',
     range: '640 nm',
