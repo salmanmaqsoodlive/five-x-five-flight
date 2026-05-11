@@ -55,8 +55,8 @@ export default function RadarWidget({ size = 200, blipCount = 5 }: Props) {
       ctx.stroke()
 
       // Sweep gradient
-      const grad = ctx.createConicalGradient
-        ? ctx.createConicalGradient(center, center, angleRef.current - Math.PI / 3)
+      const grad = ctx.createConicGradient
+        ? ctx.createConicGradient(angleRef.current - Math.PI / 3, center, center)
         : null
 
       const sweepAngle = angleRef.current
